@@ -397,6 +397,7 @@ class DashChatState extends State<DashChat> {
   }
 
   void widgetBuilt(Duration d) {
+    /*
     double initPos = widget.inverted
         ? 0.0
         : scrollController.position.maxScrollExtent + 25.0;
@@ -414,7 +415,7 @@ class DashChatState extends State<DashChat> {
                 });
               })
             });
-
+*/
     scrollController.addListener(() {
       bool topReached = widget.inverted
           ? scrollController.offset >=
